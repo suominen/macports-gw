@@ -1,0 +1,11 @@
+--- Makefile.orig	2011-08-25 21:00:21.000000000 +0300
++++ Makefile	2014-01-21 21:48:11.000000000 +0200
+@@ -11,7 +11,7 @@
+ 
+ DEST	= /usr/local
+ BINDIR	= $(DEST)/bin
+-MANDIR	= $(DEST)/man/man$(MANEXT)
++MANDIR	= $(DEST)/share/man/man$(MANEXT)
+ MANEXT	= 1
+ 
+ #

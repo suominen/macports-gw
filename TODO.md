@@ -4,7 +4,7 @@ TODO
 First round
 -----------
 
-- net/netname
+- ~~net/netname~~
 - net/sdist
 - net/srsh
 - net/ssync

@@ -1,3 +1,5 @@
+netname 397
+portdir net/netname description {Return the canonical network name of a host} homepage https://kimmo.suominen.com/sw/ epoch 0 platforms darwin name netname license BSD maintainers kim@netbsd.org long_description {Netname returns the canonical network name of the given host on the standard output. If no host is given, the name of the local machine is used.} version 2.2 categories net revision 0
 urlget 376
 portdir net/urlget description {Retrieve the specified URL} homepage https://kimmo.suominen.com/sw/ epoch 0 platforms darwin name urlget license BSD maintainers kim@netbsd.org long_description {Urlget retrieves the URL specified on the command line and outputs it to the standard output. It uses the HTTP 1.0 GET query by default.} version 1.5 categories {net www} revision 0
 osname 515

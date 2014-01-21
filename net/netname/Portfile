@@ -1,0 +1,35 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+
+name                netname
+version             2.2
+categories          net
+platforms           darwin
+license             BSD
+maintainers         kim@netbsd.org
+
+description         Return the canonical network name of a host
+long_description \
+    Netname returns the canonical network name of the given host on the \
+    standard output.  If no host is given, the name of the local machine \
+    is used.
+
+homepage            https://kimmo.suominen.com/sw/
+master_sites        http://oss.gw.com/people/kim/
+
+checksums           rmd160  47b749372e0067d8ce0a904ed1e9f0cdd90aa020 \
+                    sha256  9c61f10741ae5f413637d4c900534803b1cad15f784e56cca224111b81343d06
+
+patchfiles          patch-Makefile.diff
+
+use_configure       no
+build.args          DEST="${prefix}"
+build.target        netbsd
+destroot.destdir    DEST="${destroot}${prefix}"
+destroot.target     inst-all
+
+livecheck.type      regex
+livecheck.url       ${master_sites}
+livecheck.regex     "${name}-(\[\\d\\.\]+)${extract.suffix}"
