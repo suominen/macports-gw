@@ -4,7 +4,8 @@ macports-gw
 Local ports for GW
 
 
-If a local repository is a subversion checkout, it will be automatically updated by `port sync`.
+If a local repository is a subversion checkout, it will be automatically
+updated by `port sync`.
 
 
 Using svn
@@ -17,7 +18,8 @@ cd ~/src
 svn co https://github.com/suominen/macports-gw/trunk macports-gw
 ```
 
-If you are setting up your own repository, you'll want to configure subversion to:
+If you are setting up your own repository, you'll want to configure
+subversion to:
 
 * use your account with GitHub (not anonymous, and not mine)
 * use keychain for passwords
@@ -51,7 +53,8 @@ Add your local tree to the list of repositories.
 file:///Users/kim/src/macports-gw
 ```
 
-If this is your own repository, you'll want to run `portindex` after making changes in it.
+If this is your own repository, you'll want to run `portindex` after
+making changes in it.
 
 
 References
