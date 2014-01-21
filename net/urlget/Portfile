@@ -1,0 +1,34 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+
+name                urlget
+version             1.5
+categories          net www
+platforms           darwin
+license             BSD
+maintainers         kim@netbsd.org
+
+description         Retrieve the specified URL
+long_description \
+    Urlget retrieves the URL specified on the command line and outputs it \
+    to the standard output.  It uses the HTTP 1.0 GET query by default.
+
+homepage            https://kimmo.suominen.com/sw/
+master_sites        http://oss.gw.com/people/kim/
+
+checksums           rmd160  7afea8d415dbc3dfec9fafbc4e4bc15d38d35d52 \
+                    sha256  100cd9d90013834890112c2769bf441d2ec861c2e2a29acbe6dfba28d67b75bb
+
+patchfiles          patch-Makefile.diff
+
+use_configure       no
+build.args          DEST="${prefix}"
+build.target        bsd
+destroot.destdir    DEST="${destroot}${prefix}"
+destroot.target     inst-all
+
+livecheck.type      regex
+livecheck.url       ${master_sites}
+livecheck.regex     "${name}-(\[\\d\\.\]+)${extract.suffix}"
