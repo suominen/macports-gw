@@ -1,0 +1,2 @@
+osname 515
+portdir sysutils/osname description {Print name of operating system} homepage https://kimmo.suominen.com/sw/ epoch 0 platforms darwin name osname license BSD maintainers kim@netbsd.org long_description {The goal of osname is to provide a standard operating system name. Additional logic has been added for cases where information from uname(1) or lsb_release(1) is ambiguous, insufficient or superfluous. Using osname centralizes the management of such special handling.} version 2.0 categories sysutils revision 0

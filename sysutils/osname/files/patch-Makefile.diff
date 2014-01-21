@@ -1,0 +1,11 @@
+--- Makefile.orig	2011-09-02 03:13:28.000000000 +0300
++++ Makefile	2014-01-21 19:27:56.000000000 +0200
+@@ -26,7 +26,7 @@
+ 	install -c $(CMD) ${PREFIX}/bin/$(CMD)
+ 
+ install-man:
+-	install -m 664 $(CMD).1 ${PREFIX}/man/man1
++	install -m 664 $(CMD).1 ${PREFIX}/share/man/man1
+ 
+ clean:
+ 	rm -f $(CMD)

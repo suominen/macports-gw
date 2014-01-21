@@ -1,0 +1,34 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+
+name                osname
+version             2.0
+categories          sysutils
+platforms           darwin
+license             BSD
+maintainers         kim@netbsd.org
+
+description         Print name of operating system
+long_description \
+    The goal of osname is to provide a standard operating system name. \
+    Additional logic has been added for cases where information from uname(1) \
+    or lsb_release(1) is ambiguous, insufficient or superfluous. Using osname \
+    centralizes the management of such special handling.
+
+homepage            https://kimmo.suominen.com/sw/
+master_sites        http://oss.gw.com/people/kim/
+
+checksums           rmd160  0c44a8c0830f297af511287a879d1bbed4587f6e \
+                    sha256  c935eb43861dbb4a9d5b2af8faa711d65792990044113657150106fda616f401
+
+patchfiles          patch-Makefile.diff
+
+use_configure       no
+build.args          PREFIX="${prefix}"
+destroot.destdir    PREFIX="${destroot}${prefix}"
+
+livecheck.type      regex
+livecheck.url       ${master_sites}
+livecheck.regex     "${name}-(\[\\d\]+)${extract.suffix}"
