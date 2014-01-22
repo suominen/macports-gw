@@ -12,6 +12,7 @@ First round
 - sysutils/cronrun
 - ~~sysutils/genpasswd~~
 - ~~sysutils/osname~~
+- sysutils/sshsh
 
 Roller
 ------
@@ -24,11 +25,7 @@ Miscellaneous
 -------------
 
 - audio/mstream
-- net/sdist
-- net/srsh
-- net/ssync
 - net/ywho
-- sysutils/sshsh
 - sysutils/sux
 - www/webnew
 
