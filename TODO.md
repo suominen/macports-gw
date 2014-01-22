@@ -10,7 +10,7 @@ First round
 - net/ssync
 - ~~net/urlget~~
 - sysutils/cronrun
-- sysutils/genpasswd
+- ~~sysutils/genpasswd~~
 - ~~sysutils/osname~~
 
 Roller
