@@ -29,3 +29,8 @@ Miscellaneous
 - sysutils/sux
 - www/webnew
 
+From homebrew
+-------------
+
+- git-credential-osxkeychain
+
