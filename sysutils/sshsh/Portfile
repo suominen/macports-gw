@@ -1,0 +1,32 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+
+name                sshsh
+version             1.0
+categories          sysutils
+platforms           darwin
+license             BSD
+maintainers         kim@netbsd.org
+
+description         Run a new shell with an SSH identity
+long_description \
+    Sshsh checks for an existing ssh-agent(1) connection.  It runs one \
+    if necessary, and tries to add your default identity to it.
+
+homepage            https://kimmo.suominen.com/sw/
+master_sites        http://oss.gw.com/people/kim/
+
+checksums           rmd160  5c16fc1b04050169bee233714a49b78b23b2e543 \
+                    sha256  c27be6ffaf8872176f62fc51d74ed754bdf79ec31266f1cbf61983065e21ad93
+
+patchfiles          patch-Makefile.diff
+
+use_configure       no
+build.args          PREFIX="${prefix}"
+destroot.destdir    PREFIX="${destroot}${prefix}"
+
+livecheck.type      regex
+livecheck.url       ${master_sites}
+livecheck.regex     "${name}-(\[\\d\\.\]+)${extract.suffix}"

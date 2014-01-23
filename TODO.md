@@ -12,7 +12,7 @@ First round
 - sysutils/cronrun
 - ~~sysutils/genpasswd~~
 - ~~sysutils/osname~~
-- sysutils/sshsh
+- ~~sysutils/sshsh~~
 
 Roller
 ------
