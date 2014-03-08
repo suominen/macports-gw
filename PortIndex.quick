@@ -1,5 +1,7 @@
 netname 0
 urlget 409
-genpasswd 796
-osname 1242
-sshsh 1768
+file 796
+libmagic 1515
+genpasswd 2208
+osname 2654
+sshsh 3180
