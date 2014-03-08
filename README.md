@@ -1,8 +1,7 @@
 macports-gw
 ===========
 
-Local ports for GW
-
+Local ports for adding software that isn't otherwise available.
 
 If a local repository is a subversion checkout, it will be automatically
 updated by `port sync`.
