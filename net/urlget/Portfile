@@ -16,7 +16,7 @@ long_description \
     to the standard output.  It uses the HTTP 1.0 GET query by default.
 
 homepage            https://kimmo.suominen.com/sw/
-master_sites        http://oss.gw.com/people/kim/
+master_sites        http://software.kimmo.suominen.com/
 
 checksums           rmd160  7afea8d415dbc3dfec9fafbc4e4bc15d38d35d52 \
                     sha256  100cd9d90013834890112c2769bf441d2ec861c2e2a29acbe6dfba28d67b75bb

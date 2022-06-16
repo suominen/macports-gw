@@ -17,7 +17,7 @@ long_description \
     accounts (it can output the encrypted password as well).
 
 homepage            https://kimmo.suominen.com/sw/
-master_sites        http://oss.gw.com/people/kim/
+master_sites        http://software.kimmo.suominen.com/
 
 checksums           rmd160  2add119a36db70f16e66cbc5bc4be96a57f5bb28 \
                     sha256  748f6668d2ea0b9367f722b18b0d03cfdba3732abccfd25a95252d30cb7ca74c

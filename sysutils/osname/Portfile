@@ -18,7 +18,7 @@ long_description \
     centralizes the management of such special handling.
 
 homepage            https://kimmo.suominen.com/sw/
-master_sites        http://oss.gw.com/people/kim/
+master_sites        http://software.kimmo.suominen.com/
 
 checksums           rmd160  0c44a8c0830f297af511287a879d1bbed4587f6e \
                     sha256  c935eb43861dbb4a9d5b2af8faa711d65792990044113657150106fda616f401

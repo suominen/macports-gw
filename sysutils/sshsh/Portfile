@@ -16,7 +16,7 @@ long_description \
     if necessary, and tries to add your default identity to it.
 
 homepage            https://kimmo.suominen.com/sw/
-master_sites        http://oss.gw.com/people/kim/
+master_sites        http://software.kimmo.suominen.com/
 
 checksums           rmd160  5c16fc1b04050169bee233714a49b78b23b2e543 \
                     sha256  c27be6ffaf8872176f62fc51d74ed754bdf79ec31266f1cbf61983065e21ad93

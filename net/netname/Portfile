@@ -17,7 +17,7 @@ long_description \
     is used.
 
 homepage            https://kimmo.suominen.com/sw/
-master_sites        http://oss.gw.com/people/kim/
+master_sites        http://software.kimmo.suominen.com/
 
 checksums           rmd160  47b749372e0067d8ce0a904ed1e9f0cdd90aa020 \
                     sha256  9c61f10741ae5f413637d4c900534803b1cad15f784e56cca224111b81343d06
