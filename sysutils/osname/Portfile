@@ -8,7 +8,7 @@ version             2.0
 categories          sysutils
 platforms           darwin
 license             BSD
-maintainers         kim@netbsd.org
+maintainers         @suominen
 
 description         Print name of operating system
 long_description \

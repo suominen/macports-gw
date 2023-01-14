@@ -8,7 +8,7 @@ version             1.0
 categories          sysutils
 platforms           darwin
 license             BSD
-maintainers         kim@netbsd.org
+maintainers         @suominen
 
 description         Run a new shell with an SSH identity
 long_description \

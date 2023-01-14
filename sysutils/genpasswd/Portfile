@@ -8,7 +8,7 @@ version             1.5
 categories          sysutils
 platforms           darwin
 license             BSD
-maintainers         kim@netbsd.org
+maintainers         @suominen
 
 description         Random password generator
 long_description \

@@ -7,37 +7,14 @@ If a local repository is a subversion checkout, it will be automatically
 updated by `port sync`.
 
 
-Using svn
+Using git
 ---------
 
 I don't expect to use branches for typical access, so just get the trunk.
 
 ```sh
 cd ~/src
-svn co https://github.com/suominen/macports-gw/trunk macports-gw
-```
-
-If you are setting up your own repository, you'll want to configure
-subversion to:
-
-* use your account with GitHub (not anonymous, and not mine)
-* use keychain for passwords
-
-~/.subversion/servers
-
-```ini
-[groups]
-github = github.com
-
-[github]
-username = suominen
-```
-
-~/.subversion/config
-
-```ini
-[auth]
-password-stores = keychain
+git clone https://github.com/suominen/macports-gw.git
 ```
 
 

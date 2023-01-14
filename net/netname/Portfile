@@ -8,7 +8,7 @@ version             2.2
 categories          net
 platforms           darwin
 license             BSD
-maintainers         kim@netbsd.org
+maintainers         @suominen
 
 description         Return the canonical network name of a host
 long_description \

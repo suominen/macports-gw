@@ -8,7 +8,7 @@ version             1.5
 categories          net www
 platforms           darwin
 license             BSD
-maintainers         kim@netbsd.org
+maintainers         @suominen
 
 description         Retrieve the specified URL
 long_description \
