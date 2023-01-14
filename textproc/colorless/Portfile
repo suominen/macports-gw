@@ -1,0 +1,30 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+
+name                colorless
+version             107
+categories          textproc
+platforms           darwin
+license             BSD
+maintainers         @suominen
+
+description         Enable colorised command output and pipe it to less
+long_description \
+    colorless is a wrapper that enables colorised output of commands and \
+    pipes the output to less(1).
+
+homepage            https://kimmo.suominen.com/sw/colorless
+master_sites        http://software.kimmo.suominen.com/
+
+checksums           rmd160  e671a44d68443000d77c4d3667fb33f5711be069 \
+                    sha256  e49ff0e0ddf2c68e894cd2aff450c9732a1b34d3530e2690a37aa3115f1c8fba
+
+use_configure       no
+build.args          PREFIX="${prefix}"
+destroot.args       PREFIX="${prefix}"
+
+livecheck.type      regex
+livecheck.url       ${master_sites}
+livecheck.regex     "${name}-(\[\\d\\.\]+)${extract.suffix}"
