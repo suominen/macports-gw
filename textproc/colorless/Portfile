@@ -4,7 +4,7 @@
 PortSystem          1.0
 
 name                colorless
-version             108
+version             109
 categories          textproc
 platforms           darwin
 license             BSD
@@ -18,8 +18,8 @@ long_description \
 homepage            https://kimmo.suominen.com/sw/colorless
 master_sites        http://software.kimmo.suominen.com/
 
-checksums           rmd160  90d7ae95feef00761f8f89b78f6e0788ef5a127d \
-                    sha256  3df9a77ed0a8809c4f141825f2db3d7565c047db336a4e7b25bd78cf7facfbd7
+checksums           rmd160  1f5522f2fccf3aa854648db4347a54d000bab7b5 \
+                    sha256  039a140fa11cf153cc4d03e4f753b7ff142cab88ff116b7600ccf9edee81927c
 
 use_configure       no
 build.args          PREFIX="${prefix}"
